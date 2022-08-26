@@ -23,6 +23,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip3 install -r requirements.txt
-      - name: time-push
+      - name: ts
         run: |
           python3 main.py
