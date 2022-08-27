@@ -1,4 +1,4 @@
-# 不要fork  config.json填自己数值
+# 不要fork  ， config.json填自己数值
 
 该项目的Github地址为：https://github.com/erwanjun/weixin_tuisong
 
