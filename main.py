@@ -319,7 +319,7 @@ def push_wx(sckey, desp=""):
     """
     推送消息到微信
     """
-    if sckey == '':
+    if sckey == 'SCU144165T385f7d1a3db02edeee5ad0e696b1cd895ff19226e25c4':
         print("[注意] 未提供sckey，不进行推送！")
     else:
         server_url = f"https://sc.ftqq.com/{sckey}.send"
