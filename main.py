@@ -459,34 +459,6 @@ def wxpush(msg, usr, corpid, corpsecret, agentid=1000002):
     else:
         send_message(msg, usr)
 
-if __name__ ==  "__main__":
-    # Push Mode
-    Pm = input()
-    if Pm == 'wx' or Pm == 'nwx':
-        # ServerChan
-        sckey = input()
-        if str(sckey) == '0':
-            sckey = ''
-    elif Pm == 'tg':
-        token = input()
-        sl = token.split('@')
-        if len(sl) != 2:
-            print('tg推送参数有误！')
-    elif Pm == 'qwx':
-        token = input()
-        sl = token.split('-')
-        if len(sl) < 3:
-            print('企业微信推送参数有误！')
-    elif Pm == 'pp':
-        token = input()
-        if token == '':
-            print('pushplus token错误')
-    elif Pm == 'off':
-        input()
-        print('不推送')
-    else:
-        print('推送选项有误！')
-        exit(0)
 
 if __name__ == "__main__":
     try:
