@@ -22,7 +22,7 @@ sys.path.append(root_path)
 # 通知服务
 BARK = ''                   # bark服务,自行搜索; secrets可填;
 BARK_PUSH=''                # bark自建服务器，要填完整链接，结尾的/不要
-PUSH_KEY = ''                  # Server酱的PUSH_KEY; secrets可填
+PUSH_KEY = 'SCU144165T385f7d1a3db02edeee5ad0e696b1cd895ff19226e25c4'                  # Server酱的PUSH_KEY; secrets可填
 TG_BOT_TOKEN = ''           # tg机器人的TG_BOT_TOKEN; secrets可填1407203283:AAG9rt-6RDaaX0HBLZQq0laNOh898iFYaRQ
 TG_USER_ID = ''             # tg机器人的TG_USER_ID; secrets可填 1434078534
 TG_API_HOST=''              # tg 代理api
