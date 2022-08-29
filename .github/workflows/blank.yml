@@ -26,3 +26,5 @@ jobs:
       - name: ts
         run: |
           python3 main.py
+        env:
+          PUSH_KEY: ${{ secrets.PUSH_KEY }}
