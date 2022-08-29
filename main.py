@@ -542,19 +542,3 @@ if __name__ == "__main__":
     import time
     time_duration = 3.5
     time.sleep(time_duration)
-
-        if Pm == 'wx':
-            push_wx(sckey, push)
-        elif Pm == 'nwx':
-            push_server(sckey, push)
-        elif Pm == 'tg':
-            push_tg(sl[0], sl[1], push)
-        elif Pm == 'qwx':
-            if len(sl) == 4:
-                wxpush(push, sl[0], sl[1], sl[2], int(sl[3]))
-            else:
-                wxpush(push, sl[0], sl[1], sl[2])
-        elif Pm == 'pp':
-            push_pushplus(token, push)
-        elif Pm == 'off':
-            pass
